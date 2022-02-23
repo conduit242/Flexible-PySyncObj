@@ -1,4 +1,4 @@
-# PySyncObj
+# Flexible-PySyncObj
 
 [![Build Status][travis-image]][travis] [![Windows Build Status][appveyor-image]][appveyor] [![Coverage Status][coverage-image]][coverage] [![Release][release-image]][releases] [![License][license-image]][license] [![gitter][gitter-image]][gitter] [![docs][docs-image]][docs]
 
@@ -34,6 +34,8 @@ PySyncObj is a python library for building fault-tolerant distributed systems. I
 - Python2 and Python3 on linux, macos and windows - no dependencies required (only optional one, eg. cryptography)
 - Configurable event loop - it can works in separate thread with it's own event loop - or you can call onTick function inside your own one
 - Convenient interface - you can easily transform arbitrary class into a replicated one (see example below).
+
+Flexible-PySyncObj will extend PySyncObj with Flexible Paxos-like features and optimizations for leader localization.
 
 ## Content
  * [Install](#install)
